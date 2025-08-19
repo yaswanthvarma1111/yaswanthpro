@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    /* color: black; */
+    
+}
+  
+@media screen and (max-width:1024px) {
+  
+}
+@media screen and (max-width:768px) {
+   
+}
+@media screen and (max-width:480px) {
+    .diveOneImgtag{
+        width: 100%;
+        height: auto;
+    }
+    
+  .price{      
+  color: #4285F4;  
+  font-weight:700;
+  font-size: 28px;
+  padding-left:20px;
+  margin-bottom: 10px;
+  }
+  .itemcode{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:19px;
+    
+    padding: 10px 20px;
+  }
+  .icons{
+    display: flex;
+    gap: 45px;
+  }
+ .itemcode-2{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+ }
+ .upc{
+  margin-left:20px;  
+ } 
+ .hcpcs{
+    margin-right: 20px;
+ }
+     
+ 
+  
+
+ 
+}
