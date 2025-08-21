@@ -11,10 +11,14 @@
 
 @media screen and (max-width:768px) {}
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
   .diveOneImgtag {
     width: 100%;
     height: auto;
+  }
+
+  .first-div {
+    padding-bottom: 10px;
   }
 
   .heading {
@@ -52,6 +56,8 @@
 
   .upc {
     margin-left: 20px;
+    font-size: 19px;
+
   }
 
   .hcpcs {
@@ -66,33 +72,45 @@
   .red-button {
     background-color: red;
     border-radius: 40px;
-
+    padding: 20px;
     width: 10px;
     height: 10px;
-
+    border: none;
   }
 
   .blue-button {
     background-color: blue;
     border-radius: 40px;
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    border: none;
 
   }
 
   .black-button {
     background-color: black;
     border-radius: 40px;
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    border: none;
 
 
   }
 
   .color {
-    margin-top: 10px;
+
     padding-left: 20px;
+    font-size: 22px;
+    padding-top: 20px;
+
   }
 
   .color-option-1 {
     display: flex;
-    gap: 45px;
+    align-items: center;
+    gap: 65px;
     padding-left: 20px;
 
   }
@@ -101,18 +119,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
   }
 
   .SeatSize {
-    padding-left: 20px;
-    margin-top: 10px;
-
-
-
+    padding-left: 25px;
+    margin-top: 30px;
+    font-size: 20px;
   }
 
   .button-16 {
-    padding: 10px 28px;
+    padding: 10px 30px;
     border: 2px solid #ccc;
     border-radius: 40px;
     background-color: #fff;
@@ -121,7 +138,7 @@
   }
 
   .button-18 {
-    padding: 10px 28px;
+    padding: 10px 30px;
     border: 2px solid #ccc;
     border-radius: 40px;
     background-color: #fff;
@@ -131,7 +148,7 @@
   }
 
   .button-20 {
-    padding: 10px 28px;
+    padding: 10px 30px;
     border: 2px solid #ccc;
     border-radius: 40px;
     background-color: #fff;
@@ -140,13 +157,16 @@
 
   .Armstyle-button {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+
   }
 
   .Armstyle {
-    font-size: 18px;
-    padding-left: 20px;
+
+    padding-left: 25px;
+    margin-top: 30px;
+    font-size: 20px;
   }
 
   .Desk {
@@ -155,55 +175,199 @@
     border: 2px solid #ccc;
     background-color: #fff;
     border-radius: 40px;
-    font-size: 18px;
+    font-size: 20px;
     border-color: #2563eb;
   }
 
   .Full {
-    padding: 10px 50px;
+    padding: 10px 55px;
     color: #333;
     border: 2px solid #ccc;
     background-color: #fff;
     border-radius: 40px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
-  .FronRigging-button {
+  .FrontRigging-button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
+
+    padding-bottom: 35px;
+    font-size: 20px;
   }
 
   .FrontRigging {
-    font-size: 18px;
+
     padding-left: 30px;
-    margin-top: 20px;
-
-
+    margin-top: 30px;
+    font-size: 20px;
 
   }
 
   .Footrest {
-    padding: 10px 25px;
+    padding: 10px 35px;
     color: #333;
     border: 2px solid #ccc;
     background-color: #fff;
     border-radius: 40px;
-    font-size: 18px;
+    font-size: 20px;
+
 
   }
 
   .Legrests {
-    padding: 10px 25px;
+    padding: 10px 35px;
     color: #333;
     border: 2px solid #ccc;
     background-color: #fff;
     border-radius: 40px;
-    font-size: 18px;
+    font-size: 20px;
     border-color: #2563eb;
 
   }
 
+  .stockprice {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
+
+  }
+
+  .stockprice {
+
+    font-weight: bold;
+    font-size: 15px;
+    gap: 10px;
+    color: #1a73e8;
+    margin-top: 10px;
+
+    /* Blue */
+  }
+
+  .Instock {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #228b22;
+  }
+
+  .delivery {
+    padding-left: 40px;
+    word-spacing: 5px;
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 30px;
+
+  }
+
+  .date {
+    color: #1a73e8;
+  }
+
+  .Chris-Huntington {
+    color: #1a73e8;
+  }
+
+  .Quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+  .add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .Quantity-button {
+    padding: 10px 55px;
+    color: #333;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    border-radius: 15px;
+    border-color: #2563eb;
+    font-size: 16px;
+  }
+
+  .add-to-cart-button {
+    padding: 15px 130px;
+    border-radius: 40px;
+    color: white;
+    background-color: #397AE3;
+    border: none;
+    margin-top: 25px;
+
+  }
+
+  .dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dropdown-button-1 {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+  }
+
+  .first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+    padding: 20px;
+
+  }
+
+  .second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .third {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .fourth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .fifth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .options {
+    margin-top: 20px;
+    padding-bottom: 15px;
+
+
+  }
 }
