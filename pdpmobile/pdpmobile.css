@@ -554,6 +554,7 @@ body {
     justify-content: space-between;
     margin-top: 25px;
   }
+
   .F2 {
     padding-left: 20px;
     font-weight: 500;
@@ -625,7 +626,7 @@ body {
     text-align: center;
   }
 
-  .ResourcesDownloads {
+  .ResourcesDownloads,.last {
     display: flex;
     justify-content: space-between;
     border-top: 2px solid #ccc;
@@ -643,11 +644,6 @@ body {
     margin-top: 11%;
     padding-right: 20px;
   }
-
-  /* .book-1 {
-    width: 100px;
-    height: 50px;
-  } */
   .book,
   .settings,
   .Catalog-Page {
@@ -656,11 +652,6 @@ body {
     justify-content: center;
     align-items: center;
   }
-
-  /* .settings,.book,.Catalog-Page{
-    width: 50px;
-    height: 50px;
-   } */
   .Downloand {
     padding: 15px 130px;
     border-radius: 40px;
@@ -708,32 +699,87 @@ body {
     font-size: 14px;
     font-weight: 700;
   }
+  .You{
+     font-weight: 500;
+    font-size: 25px;
+    margin-top: 10%;
+    /* padding-left: 20px; */
+  }
 
   .image-box {
     border: 2px solid #ccc;
     border-radius: 20px;
-     /* border-bottom: 2px solid #ccc; */
+    /* border-bottom: 2px solid #ccc; */
   }
-  .image-box-1{
+
+  .image-box-1
+   {
     border-top: 2px solid #ccc;
   }
-  .itemh2{
-   font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    font-size: 25px;
-    color: #333;
+   .images {
+  display: flex;
+  gap: 20px;             /* space between cards */
+  justify-content: center;
+  margin-top: 20px;
+}
+.image-box {
+  width: 250px;          /* ixed width */
+border: 2px solid #ccc;
+  border-radius: 20px;
+  background: #fff;
+  overflow: hidden;
+}
+.image-box img {
+  width: 80%;          /* image fills the card width */
+  height: auto;
+  border-radius: 8px ;
+}
+.buttons {
+  margin: 20px;
+  text-align: center;   /*  center align buttons */
+}
+.Learn-More {
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  background-color: #fff;
+  border-radius: 40px;
+  font-size: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-to-cart-buttons {
+  margin-top: 10px;
+  font-size: 10px;
+  padding: 12px 25px;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  background-color: #2563eb;
+  cursor: pointer;
+}
+.details{
+  border-top: 2px solid #ccc;
+  padding-left: 20px;
+}
+  .price-1{
+    font-weight: 700;
+    font-size: 28px;
+    color: #2563eb;
+    margin-top: 10px;
+
   }
-  .Learn-More{
-     color:  #2563eb;
-    border: 2px solid #ccc;
-    background-color: #fff;
-    border-radius: 40px;
-    font-size: 20px;
-    border-color: #2563eb;
- padding: 15px 130px;
-
-
+  .left,.right{
+    display: flex;
+    align-items: center;
+    color:  #2563eb;
   }
   
+    
 
+
+  
+   
+  
 }
+
