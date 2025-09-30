@@ -140,6 +140,19 @@ console.log(typeof nn);
 
 let und;
 console.log(und);
+  
+//symbol :
+
+
+
+
+
+
+
+
+
+
+
 
 
 //non-premitive datatype   1) object
@@ -193,22 +206,42 @@ bus.timings = function () {
 }
 bus.timings();
 // console.log(Object.keys(bus));
+   
+// Write, Edit and Run your Javascript code using JS Online Compiler
+let buses={
+  source:"akp",
+  destination:`gwk`,
+  stop:function(){
+    console.log("hello bus " );
+  }
+}
+console.log(buses[`source`]);
+buses.stop();
 
 
-//arrays: 
-
- 
 
 
+//symbol are uni
+// let sys= Symbol(" hello");
+// let sys1= Symbol("hello");
+
+// console.log(sys===sys1); 
 
 
+// let name = Symbol("employe");
+// let employe= {
+//   [name]:"yaswanth",
+//   id:100,
+
+// }
+
+//  employe.name="raju";
+
+// console.log(Object.getOwnPropertySymbols(employe));
 
 
-
-
-
-
-
+let result = 0 / 0;
+console.log(result); // NaN
 
 
 
