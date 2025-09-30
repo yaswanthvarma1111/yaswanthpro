@@ -244,6 +244,16 @@ let result = 0 / 0;
 console.log(result); // NaN
 
 
+let numm = Number("hi");
+console.log( numm);
+
+
+let num1=0/0;
+console.log( num1);
+
+let a= "x"- 5;
+console.log(a);
+
 
 
 
