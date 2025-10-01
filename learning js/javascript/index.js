@@ -230,7 +230,7 @@ buses.stop();
 
 // let name = Symbol("employe");
 // let employe= {
-//   [name]:"yaswanth",
+//   [name]:"yaswanth", 00001  00000000000000000000000000000000000000  
 //   id:100,
 
 // }
@@ -254,6 +254,15 @@ console.log( num1);
 let a= "x"- 5;
 console.log(a);
 
+
+
+//arrays:
+
+let ar=[];
+let arr=[1,2,3,{name:"hello"}];
+
+
+console.log(typeof(ar));// type of array
 
 
 
