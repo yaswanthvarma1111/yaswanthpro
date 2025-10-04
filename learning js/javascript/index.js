@@ -259,10 +259,82 @@ console.log(a);
 //arrays:
 
 let ar=[];
-let arr=[1,2,3,{name:"hello"}];
+let arr=[1,2,3,{name:"hello java script"}];
 
 
-console.log(typeof(ar));// type of array
+console.log(typeof(ar));// type of array'
+console.log(arr[1]); // access of elements
+   console.log(arr[3].name);
+
+
+
+
+  //  methods of arrays
+ let animals= ["cow","buffalo","lion","tiger","cheetah","elephant"];
+
+ console.log(animals.length ) // length of the array
+// animals.push(2)
+animals.push(2); // add element in last array
+console.log(animals)
+animals.pop(2)
+console.log(animals)
+
+
+animals.unshift("hen")  //add element in fist  array
+console.log(animals)
+animals.shift()
+console.log(animals)
+
+console.log(animals.indexOf("lion"))
+
+
+ let list = [10,9,8,7,6];
+  let ss = list.splice(0,3);//splice(start, deleteCount)  remove 3 elements from 0 index
+ console.log(ss)  // removed elements
+ console.log(list)// updated elements
+
+ let sec = [34,56,765,754,89,45,75];
+ let secs = sec.slice(1,6);
+ console.log(secs);
+ console.log(sec);
+
+ //concat
+
+ let str= [ "sahil","yaswanth"];
+ let str2= ["hemant","prudvi"];
+ let join =str.concat(str2);
+ console.log(join);
+
+ let tostrings =join.toString();
+console.log(tostrings);
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
