@@ -285,7 +285,7 @@ console.log(animals)
 animals.shift()
 console.log(animals)
 
-console.log(animals.indexOf("lion"))
+console.log(animals.indexOf("lion"));
 
 
  let list = [10,9,8,7,6];
@@ -308,39 +308,32 @@ console.log(animals.indexOf("lion"))
  let tostrings =join.toString();
 console.log(tostrings);
 
- 
+
+// inbuilt methods in arrays 
 
 
 
 
 
+//functions 
 
+function greet() {
+  console.log("Hello JavaScript!");
+}
 
+greet();
 
+  // with parameters
+function add(a, b) {
+  console.log(a + b);
+}
 
+add(5, 3); // 
 
+ // return value
+function multiply(a, b) {
+  return a * b;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let results = multiply(4, 3);
+console.log(results); // 12
