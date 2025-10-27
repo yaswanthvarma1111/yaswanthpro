@@ -311,10 +311,6 @@ console.log(tostrings);
 
 // inbuilt methods in arrays 
 
-
-
-
-
 //functions 
 
 function greet() {
@@ -337,3 +333,18 @@ function multiply(a, b) {
 
 let results = multiply(4, 3);
 console.log(results); // 12
+
+// arrow function 
+
+var red= (x,y)=>{
+  return x-y;
+}
+ var res=red(199,99);
+ console.log(res);
+
+ 
+
+
+
+
+
